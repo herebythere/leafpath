@@ -1,0 +1,36 @@
+{
+  "types": [
+    "signal",
+    "number",
+    "string"
+  ],
+  "local": {
+    "~": {
+      "input": ["number"],
+      "args": [],
+      "output": ["signal"]
+    },
+    "+~": {
+      "input": ["signal", "signal"],
+      "args": [],
+
+      "output": ["signal"]
+    },
+    "*~": {
+      "input": ["signal", "signal"],
+      "args": [],
+      "output": ["signal"]
+    },
+    "num": {
+      "input": ["number"],
+      "args": [],
+      "output": ["number"]
+    },
+    "../../hello.json": {
+      "input": ["signal"],
+      "args": [],
+      "output": ["signal"]
+    }
+  },
+  "patches": {}
+}
